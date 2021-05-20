@@ -48,6 +48,9 @@ export const Toggle = () => {
         <ToggleContainer>
             <ToggleBackground
                 onTap={toggleOn}
+                style={{
+                    background: toggleDirection ? "#f3d4e6" : "#f9e5cb"
+                }}
             >
                 <ToggleCircle 
                     onTap={toggleOn}
